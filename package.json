@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "radium": "^0.25.0",
     "react": "^16.6.3",
+    "react-css-modules": "^4.7.8",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
   },
@@ -21,5 +23,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "css-loader": "^2.0.1",
+    "style-loader": "^0.23.1"
+  }
 }
