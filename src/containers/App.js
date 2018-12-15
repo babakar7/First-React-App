@@ -102,7 +102,7 @@ deletePersonhandler = (index) => {
       // JSX. Syntactical sugar
       <div className="App">
         <h1 className={classes.join(' ')} > My time is now </h1>
-        <button style={style} onClick={this.togglePeople}> SWITCH NAME </button>
+        <button style={style} onClick={this.togglePeople}> TOGGLE CARDS </button>
         {people}
       </div>
     );

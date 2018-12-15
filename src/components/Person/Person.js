@@ -23,7 +23,7 @@ class Person extends Component{
 
   render(){
     return (
-        <div className={styles} >
+        <div className={[styles.Person, "Person"].join(' ')} >
           <p> I am a person. My name is {this.props.name} </p>
           <input type="text" onChange={this.props.changed}  value={this.props.name}/>
           <button  onClick={this.props.delete} > DELETE </button>
