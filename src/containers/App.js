@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Withclass from '../hoc/Withclass'
 
 // should start with uppercase because react identifies them as custom compoents
 
@@ -100,11 +101,11 @@ deletePersonhandler = (index) => {
 
     return (
       // JSX. Syntactical sugar
-      <div className="App">
+      <Withclass classes="App">
         <h1 className={classes.join(' ')} > My time is now </h1>
         <button style={style} onClick={this.togglePeople}> TOGGLE CARDS </button>
         {people}
-      </div>
+        </Withclass>
     );
 
   }
